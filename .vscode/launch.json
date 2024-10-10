@@ -1,13 +1,15 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
-      "request": "launch",
-      "args": [],
-      "cwd": "/Users/agustingerlero/Desktop/python internet",
-      "program": "/Users/agustingerlero/Desktop/python internet/build/Debug/outDebug"
-    }
-  ]
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Depurador de Python: Archivo actual",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
 }

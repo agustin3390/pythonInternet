@@ -14,3 +14,4 @@ def edades(v1, *lista):
 lista = [20, 15, 30, 12, 11, 50, 45, 23, 8]
 edad = 35
 print(edades(edad, *lista))
+print("fin")

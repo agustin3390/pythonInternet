@@ -1,0 +1,5 @@
+cadena = input("ingrese la palabra: ")
+print(cadena)
+print(cadena[:2])
+print(cadena[len(cadena)- 2:])
+print(cadena[1:len(cadena)- 1])
